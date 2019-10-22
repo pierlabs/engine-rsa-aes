@@ -3,7 +3,7 @@
 
     *openssl genrsa -out chave_rsa.pem 2048*
     
-* **2ª Gera a chave PÚBLICA apartir da privada**
+* **2ª Gera a chave PÚBLICA a partir da privada**
 
     openssl rsa -pubout -in chave_rsa.pem -out chave_publica.key
     
